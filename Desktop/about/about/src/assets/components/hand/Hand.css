@@ -1,0 +1,23 @@
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.hand{
+    width: 624px;
+height: 480px;
+top: 1466px;
+left: 736px;
+gap: 0px;
+opacity: 0px;
+margin-top: 90px;
+margin-left: 190px;
+
+}
+.top{
+    margin-top: 90px;
+    margin-left: 90px;
+}
+.oo{
+    font-size: 40px;
+
+}

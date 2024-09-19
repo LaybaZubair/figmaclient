@@ -1,0 +1,23 @@
+.aaa{
+    background-color:#F4F0F8;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    margin-top: 146px;
+}
+.our{
+    display: flex;
+    flex-direction: column;
+    padding-left: 70px;
+}
+.some{
+padding-left: 60px;
+}
+.back{
+    background-color: rgb(213, 226, 227);
+    color: rgb(79, 84, 182);
+    font-size: 20px;
+}
+.font{
+    font-size: 36px;
+}
