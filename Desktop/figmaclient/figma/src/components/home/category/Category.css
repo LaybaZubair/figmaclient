@@ -1,0 +1,71 @@
+section.category .column{
+  display: flex;
+  flex-direction: column;
+}
+
+section.category .row{
+  display: flex;
+  flex-direction: row;
+}
+section.category .card1{
+  background-color: #F4F4F4;
+  width: 296px;
+height: 224px;
+margin: 10px;
+text-align: center;
+
+}
+section.category .card2{
+  background-color: #FFD050;
+  width: 296px;
+  height: 224px;
+margin: 10px;
+text-align: center;
+}
+section.category .pict{
+ width:  128px;
+ height: 128px;
+ margin-right: 56px;
+ margin-top: 30px;
+ margin-left: 30px;
+ border-radius: 100%;
+ object-fit: cover;
+
+}
+section.category .container{
+  margin-top: 30px;
+}
+
+
+section.category .pp{
+text-align: center;
+
+}
+section.category .hh{
+  text-align: center;
+  margin-top: 50px;
+}
+section.category .cc{
+
+  margin-top: 10px;
+  margin-bottom: 16px;
+}
+
+
+@media screen and (max-width:767px) {
+  section.simple .container {
+      display: flex;
+      flex-direction: column;
+      margin-top: 90px;
+  }
+  section.simple .left {
+      width: 100%;
+      margin-left: 0;
+  }
+
+section.simple .right {
+  width: 100%;
+  
+
+}
+}

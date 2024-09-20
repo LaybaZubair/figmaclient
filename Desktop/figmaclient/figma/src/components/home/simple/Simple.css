@@ -1,0 +1,34 @@
+section.simple .left{
+width: 50%;
+
+}
+
+section.simple .right{
+    width: 50%;
+   
+    }
+    section.simple .container{
+        display: flex;
+        flex-direction: row;
+        margin-top: 90px;
+    }
+
+    section.simple .image{
+        width:90%;
+       
+        }
+        @media screen and (max-width:767px) {
+            section.simple .container {
+                display: flex;
+                flex-direction: column;
+                margin-top: 90px;
+            }
+            section.simple .left {
+                width: 100%;
+                margin-left: 0;
+            }
+          
+          }section.simple .right {
+            width: 100%;
+        }
+   

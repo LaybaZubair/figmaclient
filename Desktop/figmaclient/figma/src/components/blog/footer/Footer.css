@@ -1,0 +1,46 @@
+.mmm{
+    background-color: #232536;
+    color: rgb(253, 253, 253);
+}
+
+.footer{
+   
+display: flex;
+flex-direction: row;
+background-color: #232536;
+
+}
+.gap{
+    padding-left: 960px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+.ccc{
+   
+}
+.footerrow{
+    display: flex;
+    flex-direction: row;
+    
+}
+.input{
+    padding: 30px;
+    margin: 30px;
+    height: 1px;
+}
+.sub{
+    height: 60px;
+    margin-top: 30px;
+    background-color: yellow;
+    color: rgb(21, 14, 14);
+    margin-right: 30px;
+}
+.letter{
+ margin: 30px;
+    font-size: 46px;
+   
+}
+.nav-item{
+decoration: none;
+}

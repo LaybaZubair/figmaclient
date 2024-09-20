@@ -1,0 +1,41 @@
+section.welcome .top{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    margin-left: 0;
+}
+section.welcome .image{
+ max-width: 100%;
+ /* width: 100%; */
+ height: auto;
+ object-fit: cover;
+ margin-left: 0;
+}
+
+section.welcome .right{
+   
+    width: 100%;
+    margin-left: 60px;
+   }
+   
+
+   @media screen and (max-width:767px) {
+    section.welcome .top {
+        display: flex;
+        flex-direction: column;
+        margin-top: 60px;
+    }
+    section.welcome .right {
+width: 100%;
+margin-left: 0%;
+    }
+
+}
+
+@media screen and (max-width:1180px) {
+    section.welcome .top {
+        display: flex;
+        flex-direction: column;
+        /* margin-top: 90px; */
+    }
+}

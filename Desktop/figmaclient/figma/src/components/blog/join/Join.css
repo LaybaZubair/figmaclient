@@ -1,0 +1,16 @@
+section.join .container{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+@media screen and (max-width: 780px) {
+  
+    section.join .container {
+       
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+}

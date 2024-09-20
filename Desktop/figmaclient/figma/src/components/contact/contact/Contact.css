@@ -1,0 +1,30 @@
+section.contact .row{
+    display: flex;
+    flex-direction: row;
+  background-color: #592EA9;
+  max-width: 100%;
+  /* width:100%; */
+  margin-left: 30px;
+  
+    
+}
+
+section.contact .left{
+ 
+    width: 20%;
+}
+section.contact .right{
+    width: 50%;
+    
+}
+
+/* section.contact .row-1{
+align-items: center;
+} */
+
+/* @media screen and (max-width: 768px) {
+
+    section.contact .row {
+      margin-left: 0%;
+    }
+} */

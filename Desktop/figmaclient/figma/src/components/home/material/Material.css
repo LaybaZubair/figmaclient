@@ -1,0 +1,60 @@
+section.material .column{
+    display: flex;
+    flex-direction: column;
+}
+
+section.material .row{
+    display: flex;
+    flex-direction: row;
+}
+section.material .card1{
+    background-color: #F4F4F4;
+    max-width: 296px;
+height: 324px;
+margin: 10px;
+text-align: center;
+
+
+
+}
+section.material .pict{
+   width:  128px;
+   height: 128px;
+   margin-right: 56px;
+   margin-top: 30px;
+   margin-left: 30px;
+   border-radius: 100%;
+   object-fit: cover;
+
+}
+section.material .container{
+    margin-top: 30px;
+}
+
+
+section.material .pp{
+  text-align: center;
+  
+}
+section.material .hh{
+    text-align: center;
+    
+  }
+  
+  @media screen and (max-width:767px) {
+    section.simple .container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 90px;
+    }
+    section.simple .left {
+        width: 100%;
+        margin-left: 0;
+    }
+  
+  section.simple .right {
+    width: 100%;
+    
+
+}
+  }

@@ -1,0 +1,18 @@
+
+/* 
+.respon {
+  background-color: #232536;
+}
+
+@media screen and (max-width: 800px) {
+  .respon
+  {
+width: 360px;
+  }
+} */
+
+
+section.navbar .navbar-container{
+  background-color: rgb(37, 37, 68);
+ 
+}

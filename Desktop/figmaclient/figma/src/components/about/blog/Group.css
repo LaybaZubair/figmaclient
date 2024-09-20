@@ -1,0 +1,18 @@
+section.group .image{
+  max-width: 100%;
+  height: auto;
+ 
+}
+section.group .container{
+  display: flex;
+  flex-direction: row;
+
+}
+@media screen and (max-width:767px) {
+
+
+  section.group .container {
+    display: flex;
+    flex-direction: column;
+  }
+}

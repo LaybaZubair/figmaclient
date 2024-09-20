@@ -1,0 +1,63 @@
+section.list .image{
+    width:  128px;
+    height: 128px;
+    margin-right: 66px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 100%;
+    object-fit: cover;
+    
+}
+section.list .card-1{
+width: 230px;
+height: 230px;
+background-color: rgb(225, 222, 218);
+margin: 30px;
+}
+section.list .container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+}
+section.list .row-1{
+    display: flex;
+    flex-direction: row;
+
+}
+section.list .row-2{
+    display: flex;
+    flex-direction: row;
+
+}
+  @media screen and (max-width:767px) {
+    section.list .row-1{
+        display: flex;
+        flex-direction: column;
+   
+    }
+    section.list .row-2{
+        display: flex;
+        flex-direction: column;
+   
+    }
+    section.list .card-1{
+        margin-left:0;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+  
+  }
+
+
+  @media screen and (max-width:367px) {
+  section.list .card-1{
+    margin-left:0;
+       margin: auto;
+       margin-bottom: 20px;
+        }
+    }
+
+    
+
+  

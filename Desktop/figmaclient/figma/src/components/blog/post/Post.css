@@ -1,0 +1,67 @@
+section.post .container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+    margin-top: 90px;
+   width: 100%;
+  
+    align-items: center;
+   
+}
+
+section.post .left {
+   width: 50%;
+   margin-left: 0;
+}
+
+section.post .right {
+    width: 50%;
+}
+
+section.post .image {
+   margin-left: 60px;
+   max-width: 100%;
+   height: auto;
+}
+
+
+section.post .button {
+    background-color: #FFD050;
+    color: black;
+    width: 204px;
+    height: 56px;
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width: 767px) {
+    section.post .container {
+        flex-direction: column;
+        margin-left: 0; 
+       max-width: 100%;
+        height: auto;
+    }
+
+    section.post .left {
+        width: 100%; 
+        margin-left: 0;
+    }
+    section.post .right {
+        width: 100%; 
+        margin-left: 0;
+    }
+
+    section.post .image {
+        margin-left: 0;
+        margin-top: 20px; 
+        max-width: 100%;
+        height: auto;
+   
+    }
+
+    section.post .button {
+
+    
+        padding: 10px;
+    }
+}

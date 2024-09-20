@@ -1,0 +1,22 @@
+section.picss .row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0px;
+}
+
+section.picss .pic {
+  width: 360px;
+}
+section.picss .container{
+    margin-left: 10;
+}
+
+@media screen and (max-width: 780px) {
+  
+    section.picss .top {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}

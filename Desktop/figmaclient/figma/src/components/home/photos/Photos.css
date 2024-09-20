@@ -1,0 +1,27 @@
+
+
+section.photos {
+  background-image: url("client14.png");
+  background-size: cover;
+  background-position: center;
+  background-color: none;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+
+}
+
+section.photos .left {
+  max-width: 50%;
+  margin-left: 0;
+  color: aliceblue;
+}
+
+
+@media screen and (max-width:767px) {
+  section.photos .left {
+    max-width:100%;
+    margin-left: 0;
+    color: aliceblue;
+}
+}
